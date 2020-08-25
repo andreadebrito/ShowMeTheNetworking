@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+font-family: 'Open Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+font-family: 'Montserrat', sans-serif; font-weight: 300; 
+
+
+h1, h2, h3, h4, h5, h6 { 
+  font-family: 'Montserrat', sans-serif; font-weight: 300; 
+  color: #000000;
+  font-size:50px ;
+}
+
+h6 {
+  margin: auto;
+}
+
+p { 
+	font-family: 'Alata', sans-serif; letter-spacing: -0.05em; 
+  color: #151C20;
+  font-size: 21px;
+}
+
+.caixa {
+  padding: 60px 0;
+
+  
+}
+.left-cover {
+  background-color: #9E5EB2;
+  color: white;
+  
+}
+
+.right-cover {
+  background-color: #E1C2EB;
+}
+
+.fotoconvidado {
+  width: 150px;
+  height: 150px ;
+  background-color: grey ;
+  border-radius: 100%;
+  text-align: center ;
+  margin: auto;
+}
+.nomeconvidado {
+  margin: auto;
+  text-align: center;
+}
+#bg-barra {
+  background-color: #9E5EB2;
+  position: fixed;
+}
+.modalbarra {
+  height: 63px;
+  
+  text-align: center;
+  
+}
+
+
+
+
+
