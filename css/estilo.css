@@ -3,11 +3,11 @@ font-family: 'Open Sans', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 font-family: 'Montserrat', sans-serif; font-weight: 300; 
 
-
 h1, h2, h3, h4, h5, h6 { 
   font-family: 'Montserrat', sans-serif; font-weight: 300; 
-  color: #000000;
-  font-size:50px ;
+  color:#151C20;
+  font-size:50px;
+  font-weight: bold; 
 }
 
 h6 {
@@ -16,31 +16,23 @@ h6 {
 
 p { 
 	font-family: 'Alata', sans-serif; letter-spacing: -0.05em; 
-  color: #151C20;
   font-size: 21px;
+ 
 }
 
 .caixa {
   padding: 60px 0;
-
-  
+   
 }
-.left-cover {
-  background-color: #9E5EB2;
+.cover{
+  background-color: #9E5EB2;  
   color: white;
-  
-}
 
-.right-cover {
-  background-color: #E1C2EB;
 }
 
 .fotoconvidado {
   width: 150px;
   height: 150px ;
-  background-color: grey ;
-  border-radius: 100%;
-  text-align: center ;
   margin: auto;
 }
 .nomeconvidado {
@@ -48,15 +40,37 @@ p {
   text-align: center;
 }
 #bg-barra {
-  background-color: #9E5EB2;
+  background-color: #F3F1F6;
   position: fixed;
 }
 .modalbarra {
   height: 63px;
-  
   text-align: center;
   
 }
+.rodape{
+  height: 280px;
+  margin-bottom: 60px;
+  background-color: #9E5EB2;  
+}
+.live {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding: 30px;
+  
+}
+.tam {
+  font-size:56px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tablecor {
+  background: #AB89C0;
+  padding: 40px;
+  border-radius: 5px;
+}
+
 
 
 
