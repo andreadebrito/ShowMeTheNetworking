@@ -42,13 +42,14 @@ p {
 
 /*---------------------------------INVITED---------------------------------------*/
 .fotoconvidado {
-  width: 150px;
-  height: 150px ;
+  width: 200px;
+  height: 200px ;
   margin: auto;
 }
 .nomeconvidado {
   margin: auto;
   text-align: center;
+  font-size: 16px;
 }
 .live {
   margin-top: 50px;
@@ -73,9 +74,12 @@ p {
   
 }
 .rodape{
-  height: 280px;
+  height: 300px;
   margin-bottom: 60px;
   background-color: #9E5EB2;  
+}
+.boxRodape {
+  padding: 30px;
 }
 
 
