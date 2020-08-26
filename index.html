@@ -85,9 +85,9 @@
                                     <div class="input-group">
                                         <label for="mce-EMAIL"></label>
                                             <input class="form-control" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required >
-                                        <div class="input-group-append">
+                                     <div class="input-group-append">
                                             <div class="clear">
-                                                <input class="btn btn-warning" type="submit" value="Inscreva-se" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                                <input class="btn btn-warning" type="submit" value="Inscreva-se" name="subscribe" data-toggle="modal" data-target="#exampleModal1" id="mc-embedded-subscribe" class="button" >
                                             </div>
                                          
                                         </div>
@@ -226,7 +226,30 @@
             </div>
         </div>
 
-	</section><!--/section convidadas-->
+    </section><!--/section convidadas-->
+    
+     <!--Modal-->
+     <div class="modal2" tabindex="-1" role="dialog" id="exampleModal2">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">A WOMEN TALKS quer te ver nesse encontro!</h5>
+                    <button type="button" class="close" data-dismiss="modal2" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Inscreva-se para assistir essa live e ficar por dentro, das novidades, de quem ainda iremos reunir por aqui!!<br><br> Seja Bem-vinde!</p>
+                </div>
+                <!--
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            -->
+            </div>
+        </div>
+    </div>
+    <!--Fim Modal-->
     
 	<footer class="rodape">
 		<div class="container">
@@ -262,28 +285,7 @@
         </div>
     </footer>
      
-    <!--Modal-->
-    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">A WOMEN TALKS quer te ver nesse encontro!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Inscreva-se para assistir essa live e ficar por dentro, das novidades, de quem ainda iremos reunir por aqui!!<br><br> Seja Bem-Vinde!</p>
-                </div>
-                <!--
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-            -->
-            </div>
-        </div>
-    </div>
-    <!--Fim Modal-->
+   
        
    <!-- Button trigger modal -->
    <div id="bg-barra" class="container-fluid fixed-bottom" >
@@ -334,7 +336,7 @@
                         </div>    
                         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_082b04d305244b6fa983450ea_d52c187ba2" tabindex="-1" value=""></div>
-                        <div class="clear"><input class="btn btn-dark mt-3" type="submit" value="Inscreva-se" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        <div class="clear mt-4"><input class="btn btn-dark" type="submit" value="Inscreva-se" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
                         </div>
                     </form>
                     </div>
@@ -349,6 +351,29 @@
             </div>
         </div>
         <!--/modal-->
+
+       
+  
+        <!-- Modal1 -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title mTextModal" id="exampleModalLabel1">Inscrição confirmada</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <p>Sabemos da importância desta live e como pode te ajudar. Queremos que você tenha acesso a todo esse conteúdo e nosso maior desafio é fazer a nossa mensagem chegar até você, para isso favorite o e-mail da WomenTalks com estrela.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
+               <!--<button type="button" class="btn btn-primary">Save changes</button>--> 
+                </div>
+            </div>
+            </div>
+        </div>
         
         <script src="js/script.js"></script>
         <script src="js/countdown.js"></script>
