@@ -1,7 +1,7 @@
 
 let countdown = setInterval(function (){
     let today = new Date();
-    let eventDate = new Date("August 26, 2020 20:00:00");
+    let eventDate = new Date("August 28, 2020 20:00:00");
 
     let currentTime = today.getTime();
     let eventTime = eventDate.getTime();
@@ -38,13 +38,13 @@ let countdown = setInterval(function (){
  
 }, 1000)
 
-/*var count = 0;
+var count = 0;
 var maxCount = 1;
 
 document.addEventListener('mouseleave', function (){
     if(count < maxCount){
-        $("#exampleModal").modal('show'); 
+        $("#exit-popup").modal('show'); 
         count +=1;   
     }
-})*/
+})
 

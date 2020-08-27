@@ -118,7 +118,7 @@
                                     <input class="form-control" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required >
                                         <div class="input-group-append">
                                             <div class="clear">
-                                                <input class="btn btn-warning" type="submit" value="Inscreva-se" name="subscribe" data-toggle="modal" data-target="#exampleModal1" id="mc-embedded-subscribe" class="button" >
+                                                <input class="btn btn-warning" type="submit" value="Inscreva-se" name="subscribe" id="mc-embedded-subscribe" class="button" >
                                             </div>
                                         </div>
                             </div>
@@ -346,28 +346,30 @@
         </div>
         <!--/modal-->
 
-       
-  
-        <!-- Modal1 -->
-        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
-            <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h5 class="modal-title mTextModal" id="exampleModalLabel1">Inscrição confirmada</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                </div>
-                <div class="modal-body">
-                    <p>Sabemos da importância desta live e como pode te ajudar. Queremos que você tenha acesso a todo esse conteúdo e nosso maior desafio é fazer a nossa mensagem chegar até você, para isso favorite o e-mail da WomenTalks com estrela.</p>
-                </div>
+        <!--Modal-->
+        <div class="modal" tabindex="-1" role="dialog" id="exit-popup">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Queremos entregar você o melhor conteúdo!!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body mt-2">
+                        <p>Não deixe de preencher o formulário para receber
+                            mais informações sobre o projeto antes de sair.</p>
+                    </div>
+                    <!--
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
-               <!--<button type="button" class="btn btn-primary">Save changes</button>--> 
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
-            </div>
+                -->
+                </div>
             </div>
         </div>
+        <!--Fim Modal-->
+      
         
         <script src="js/script.js"></script>
         <script src="js/countdown.js"></script>
