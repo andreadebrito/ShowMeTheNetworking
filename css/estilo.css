@@ -48,14 +48,35 @@ p {
 
 }
 
+.mTable {
+  display: inline-block;
+  margin-left: 0px;
+  color:#F3F1F5;
+  font-weight: bold;
+  text-align: center;
+ 
+}
+
+.mDate{
+  background-color: #e0c2ea;
+  border: 1px solid rgb(219, 218, 228);
+  padding: 5px;
+}
+
+.mString1 {
+  font-size: 25px;
+}
+
+.mString2 {
+  font-size: 16px;
+}
+
 
 /*----------------------------------AMIGAS---------------------------------------*/
 
 .amigas{
   text-align: justify;
-
 }
-
 
 /*---------------------------------INVITED---------------------------------------*/
 .fotoconvidado {
@@ -95,29 +116,7 @@ p {
   padding: 30px;
 }
 
-
-.mTable {
-  display: inline-block;
-  margin-left: 0px;
-  color:#F3F1F5;
-  font-weight: bold;
-  text-align: center;
- 
-}
-
-.mDate{
-  background-color: #e0c2ea;
-  border: 1px solid rgb(219, 218, 228);
-  padding: 5px;
-}
-
-.mString1 {
-  font-size: 25px;
-}
-
-.mString2 {
-  font-size: 16px;
-}
+/*----------------------------------FOOTER---------------------------------------*/
 
 .mTextModal{
   font-size: 25px;

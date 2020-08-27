@@ -38,7 +38,7 @@ let countdown = setInterval(function (){
  
 }, 1000)
 
-var count = 0;
+/*var count = 0;
 var maxCount = 1;
 
 document.addEventListener('mouseleave', function (){
@@ -46,5 +46,5 @@ document.addEventListener('mouseleave', function (){
         $("#exampleModal").modal('show'); 
         count +=1;   
     }
-})
+})*/
 
