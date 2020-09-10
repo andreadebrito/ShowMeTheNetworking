@@ -1,37 +1,21 @@
-/*----------------------------------GERAL---------------------------------------*/
-*{
-  margin: 0;
-  padding:0;
-  
-}
-img-fluid{
-  max-width: 100%;
-  height: 100%;
-  display: block;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 font-family: 'Open Sans', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 font-family: 'Montserrat', sans-serif; font-weight: 300; 
 
 h1, h2, h3, h4, h5, h6 { 
-  font-family: 'Montserrat', sans-serif; 
-  font-weight: 300; 
+  font-family: 'Montserrat', sans-serif; font-weight: 300; 
   color:#151C20;
-  font-size: 40px;
-  
+  font-size:50px;
+  font-weight: bold; 
 }
 
-a:link { 
- text-decoration:none;
- color:#151C20;
-  
-} 
+h6 {
+  margin: auto;
+}
 
 p { 
-  font-family: 'Open Sans', sans-serif; 
-  letter-spacing: -0.05em; 
+	font-family: 'Alata', sans-serif; letter-spacing: -0.05em; 
   font-size: 21px;
 }
 .caixa {
@@ -40,79 +24,107 @@ p {
 
 /*----------------------------------COVER---------------------------------------*/
 
-.justificar {
+.cover{
+  background-color: #9E5EB2;  
+  color: white;
+  
+}
+
+.mtext {
   text-align: justify;
 }
 
-.mMainImg{
-  width: 400px;
-  height: 400px;
+#mc-embedded-subscribe { margin-top: 0 !important; }
+
+.live {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.mTextLive {
+  text-align: end; 
+}
+.mBtnLive {
+
+}
+
+.mTable {
+  display: inline-block;
+  margin-left: 0px;
+  color:#F3F1F5;
+  font-weight: bold;
+  text-align: center;
+ 
+}
+
+.mDate{
+  background-color: #e0c2ea;
+  border: 1px solid rgb(219, 218, 228);
+  padding: 5px;
+}
+
+.mString1 {
+  font-size: 25px;
+}
+
+.mString2 {
+  font-size: 16px;
+}
+
+
+/*----------------------------------AMIGAS---------------------------------------*/
+
+.amigas{
+  text-align: justify;
+}
+
+/*---------------------------------INVITED---------------------------------------*/
+.fotoconvidado {
+  width: 200px;
+  height: 200px ;
   margin: auto;
 }
-
-/*----------------------------------INVESTIMENTOS---------------------------------------*/
-
-.mBgInvestimentos{
- background-color: gray; 
- padding: 40px;
-}
-
-.mImgInvestimentos{
-  width: 70px;
-  height: 70px;
+.nomeconvidado {
   margin: auto;
-}
-.mDivInvestimentos {
-  width: 180px;
-  height: 100px;
-  margin: auto;
-  font-size: 12px;
-  text-align: start ;
- }
-
-/*----------------------------------IMAGEM---------------------------------------*/
-
-.imagem{
-  background-color: gray;
-  height: 500px;
-
+  text-align: center;
+  font-size: 16px;
 }
 
-/*----------------------------------MISSAO---------------------------------------*/
+.tam {
+  font-size:56px;
+  font-weight: bold;
+  text-align: center;
+}
 
-.missao{
+/*----------------------------------FOOTER---------------------------------------*/
+#bg-barra {
+  background-color: #e0c2ea;
+  position: fixed;
   
-  height: 500px;
-
 }
-
-/*----------------------------------GALERIA---------------------------------------*/
-.mGalery{
+.modalbarra {
+  height: 63px;
+  text-align: center;
+  
+}
+.rodape{
   height: 300px;
-  padding: 50px;
+  margin-bottom: 60px;
+  background-color: #9E5EB2;  
 }
-<<<<<<< HEAD
-=======
 .boxRodape {
   padding: 30px;
 }
 
-/*----------------------------------FOOTER---------------------------------------*/
+/*----------------------------------MODAL---------------------------------------*/
 
 .mTextModal{
   font-size: 25px;
   font-weight: 600;
->>>>>>> parent of ad45f41... Update 27-08 19h
 
-.owl-carousel img {
-   height: 200px;
-}/*----------------------------------FOOTER---------------------------------------*/
-.mFooter{
-  padding: 5px;
-  margin-top: 20px;
-  background-color: rgba(2, 2, 41, 0.911);
-  height: 40px;
-  
 }
 
+.mTextObr{
+  font-size: 20px;
+}
 

@@ -1,0 +1,4 @@
+sitemap: https://womentalks.com.br/sitemap.xml
+User-agent: *
+Allow: /
+
