@@ -91,6 +91,18 @@ p {
   height: 300px;
   padding: 50px;
 }
+<<<<<<< HEAD
+=======
+.boxRodape {
+  padding: 30px;
+}
+
+/*----------------------------------FOOTER---------------------------------------*/
+
+.mTextModal{
+  font-size: 25px;
+  font-weight: 600;
+>>>>>>> parent of ad45f41... Update 27-08 19h
 
 .owl-carousel img {
    height: 200px;
