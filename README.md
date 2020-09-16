@@ -1,4 +1,4 @@
-# [ShowMeTheNetworking](https://womentalks.com.br/)
+# :two_women_holding_hands: [ShowMeTheNetworking](https://womentalks.com.br/)
 
 Oi, crianças!
 Chegamos trazendo o tão esperado assignment de grupo da semana. Dessa vez, o desafio de vocês é: Atingir 1.000 visualizações através da realização de um evento online por Streaming (ex: youtube, zoom - não pode ser rede social) cuja temática tenha relação com o momento que o Brasil (e o mundo) estão vivendo.
